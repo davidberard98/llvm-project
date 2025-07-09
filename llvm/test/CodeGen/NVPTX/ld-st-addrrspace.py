@@ -42,8 +42,8 @@ llvm_type_to_ptx_reg = {
     "i64": "rd",
     "half": "rs",
     "<2 x half>": "r",
-    "float": "r",
-    "double": "rd",
+    "float": "f",
+    "double": "fd",
 }
 
 addrspace_id = {
